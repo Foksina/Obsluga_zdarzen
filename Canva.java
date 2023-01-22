@@ -6,7 +6,6 @@ import static java.awt.Color.white;
 
 public class Canva extends JFrame {
     public Canva(){
-        setLayout(null);
         JFrame canvasWindow = new JFrame();
         canvasWindow.setSize(1000,800);
         canvasWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -17,7 +16,6 @@ public class Canva extends JFrame {
         canvasWindow.setVisible(true);
 
         Drawing drawingCanvas = new Drawing();
-
         canvasWindow.add(drawingCanvas);
     }
 
